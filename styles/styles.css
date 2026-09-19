@@ -6,12 +6,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
 }
-
+/* added the grid template to create a grid container for all emojis which will be displayed in a grid layout */
 .emojis{
   display: grid;
   grid-template: none / auto auto; /* this made it resposive to the size of the screen and made the layout in 2 columns */
 }
-
+/* added the margin 5px to add 5px of space between each card */
 .emoji {
   border: 1px solid #222;
   border-radius: 8px;
@@ -20,14 +20,14 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* added the display:flex; and justify-content: center; to center the header text in each card */
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
   display: flex;
   justify-content: center;
 }
-
+/*added the display:flex; and margin-top: auto; to push the button to the bottom of each card */
 .emoji a {
   text-decoration:none;
   background-color:#781BAA;
@@ -35,13 +35,11 @@ body {
   padding: 1rem;
   border-radius: 8px;
   display: flex;
-  margin-top: auto;
-   
+  margin-top: auto;  
 }
-
+/*added display:flex; and justify-content: center; to center the icon in each card */
 .icon{
   font-size: 4rem;
   display: flex;
   justify-content: center;
-  
 }
