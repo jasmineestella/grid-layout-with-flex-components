@@ -16,7 +16,6 @@ body {
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
-  
   margin: 5px;
   display: flex;
   flex-direction: column;
@@ -25,8 +24,8 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
-  
-  
+  display: flex;
+  justify-content: center;
 }
 
 .emoji a {
