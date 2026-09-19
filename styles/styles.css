@@ -35,11 +35,12 @@ body {
   padding: 1rem;
   border-radius: 8px;
   
-    
+   
 }
 
 .icon{
   font-size: 4rem;
-  
+  display: flex;
+  justify-content: center;
   
 }
