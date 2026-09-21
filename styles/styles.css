@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
 }
-/* added the grid template to create a grid container for all emojis which will be displayed in a grid layout */
+/* added the display: grid; to create a grid container for all emojis which will be displayed in a grid layout */
 .emojis{
   display: grid;
   grid-template: none / auto auto; /* this made it resposive to the size of the screen and made the layout in 2 columns */
@@ -20,9 +20,9 @@ body {
   padding: 1rem;
   margin: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* added flex-direction: column; to make the content of each card stack vertically */
 }
-/* added the display:flex; and justify-content: center; to center the header text in each card */
+/* added the display:flex; to make it responsive and justify-content: center; to center the header text in each card */
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
